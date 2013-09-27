@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface ViewController : UIViewController
+{
+    CMMotionManager * motionManager;
+    NSOperationQueue * operationQue;
+    NSTimer * timer;
+}
 
+@property (retain, nonatomic) IBOutlet UILabel *
+    accelerationX;
+@property (retain, nonatomic) IBOutlet UILabel *
+    accelerationY;
+@property (retain, nonatomic) IBOutlet UILabel *
+    accelerationZ;
+@property (retain, nonatomic) IBOutlet UILabel *rollLabel;
+@property (retain, nonatomic) IBOutlet UILabel * pitchLabel;
+@property (retain, nonatomic) IBOutlet UILabel * yawLabel;
 @end
