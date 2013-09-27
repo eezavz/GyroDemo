@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822FABC617F5CD4D00225DD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FABC517F5CD4D00225DD8 /* UIKit.framework */; };
+		822FABC817F5CD4D00225DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FABC717F5CD4D00225DD8 /* Foundation.framework */; };
+		822FABCA17F5CD4D00225DD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822FABC917F5CD4D00225DD8 /* CoreGraphics.framework */; };
+		822FABD017F5CD4D00225DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 822FABCE17F5CD4D00225DD8 /* InfoPlist.strings */; };
+		822FABD217F5CD4D00225DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822FABD117F5CD4D00225DD8 /* main.m */; };
+		822FABD617F5CD4D00225DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 822FABD517F5CD4D00225DD8 /* AppDelegate.m */; };
+		822FABD817F5CD4D00225DD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 822FABD717F5CD4D00225DD8 /* Default.png */; };
+		822FABDA17F5CD4D00225DD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 822FABD917F5CD4D00225DD8 /* Default@2x.png */; };
+		822FABDC17F5CD4D00225DD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 822FABDB17F5CD4D00225DD8 /* Default-568h@2x.png */; };
+		822FABDF17F5CD4D00225DD8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822FABDD17F5CD4D00225DD8 /* MainStoryboard.storyboard */; };
+		822FABE217F5CD4D00225DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822FABE117F5CD4D00225DD8 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		822FABC217F5CD4D00225DD8 /* GyroDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822FABC517F5CD4D00225DD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		822FABC717F5CD4D00225DD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		822FABC917F5CD4D00225DD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		822FABCD17F5CD4D00225DD8 /* GyroDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyroDemo-Info.plist"; sourceTree = "<group>"; };
+		822FABCF17F5CD4D00225DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		822FABD117F5CD4D00225DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		822FABD317F5CD4D00225DD8 /* GyroDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GyroDemo-Prefix.pch"; sourceTree = "<group>"; };
+		822FABD417F5CD4D00225DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		822FABD517F5CD4D00225DD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		822FABD717F5CD4D00225DD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		822FABD917F5CD4D00225DD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		822FABDB17F5CD4D00225DD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		822FABDE17F5CD4D00225DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		822FABE017F5CD4D00225DD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		822FABE117F5CD4D00225DD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822FABBF17F5CD4D00225DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822FABC617F5CD4D00225DD8 /* UIKit.framework in Frameworks */,
+				822FABC817F5CD4D00225DD8 /* Foundation.framework in Frameworks */,
+				822FABCA17F5CD4D00225DD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822FABB917F5CD4D00225DD8 = {
+			isa = PBXGroup;
+			children = (
+				822FABCB17F5CD4D00225DD8 /* GyroDemo */,
+				822FABC417F5CD4D00225DD8 /* Frameworks */,
+				822FABC317F5CD4D00225DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822FABC317F5CD4D00225DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822FABC217F5CD4D00225DD8 /* GyroDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822FABC417F5CD4D00225DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822FABC517F5CD4D00225DD8 /* UIKit.framework */,
+				822FABC717F5CD4D00225DD8 /* Foundation.framework */,
+				822FABC917F5CD4D00225DD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		822FABCB17F5CD4D00225DD8 /* GyroDemo */ = {
+			isa = PBXGroup;
+			children = (
+				822FABD417F5CD4D00225DD8 /* AppDelegate.h */,
+				822FABD517F5CD4D00225DD8 /* AppDelegate.m */,
+				822FABDD17F5CD4D00225DD8 /* MainStoryboard.storyboard */,
+				822FABE017F5CD4D00225DD8 /* ViewController.h */,
+				822FABE117F5CD4D00225DD8 /* ViewController.m */,
+				822FABCC17F5CD4D00225DD8 /* Supporting Files */,
+			);
+			path = GyroDemo;
+			sourceTree = "<group>";
+		};
+		822FABCC17F5CD4D00225DD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				822FABCD17F5CD4D00225DD8 /* GyroDemo-Info.plist */,
+				822FABCE17F5CD4D00225DD8 /* InfoPlist.strings */,
+				822FABD117F5CD4D00225DD8 /* main.m */,
+				822FABD317F5CD4D00225DD8 /* GyroDemo-Prefix.pch */,
+				822FABD717F5CD4D00225DD8 /* Default.png */,
+				822FABD917F5CD4D00225DD8 /* Default@2x.png */,
+				822FABDB17F5CD4D00225DD8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822FABC117F5CD4D00225DD8 /* GyroDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822FABE517F5CD4D00225DD8 /* Build configuration list for PBXNativeTarget "GyroDemo" */;
+			buildPhases = (
+				822FABBE17F5CD4D00225DD8 /* Sources */,
+				822FABBF17F5CD4D00225DD8 /* Frameworks */,
+				822FABC017F5CD4D00225DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyroDemo;
+			productName = GyroDemo;
+			productReference = 822FABC217F5CD4D00225DD8 /* GyroDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822FABBA17F5CD4D00225DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Groep1;
+			};
+			buildConfigurationList = 822FABBD17F5CD4D00225DD8 /* Build configuration list for PBXProject "GyroDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 822FABB917F5CD4D00225DD8;
+			productRefGroup = 822FABC317F5CD4D00225DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822FABC117F5CD4D00225DD8 /* GyroDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822FABC017F5CD4D00225DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822FABD017F5CD4D00225DD8 /* InfoPlist.strings in Resources */,
+				822FABD817F5CD4D00225DD8 /* Default.png in Resources */,
+				822FABDA17F5CD4D00225DD8 /* Default@2x.png in Resources */,
+				822FABDC17F5CD4D00225DD8 /* Default-568h@2x.png in Resources */,
+				822FABDF17F5CD4D00225DD8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822FABBE17F5CD4D00225DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822FABD217F5CD4D00225DD8 /* main.m in Sources */,
+				822FABD617F5CD4D00225DD8 /* AppDelegate.m in Sources */,
+				822FABE217F5CD4D00225DD8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		822FABCE17F5CD4D00225DD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822FABCF17F5CD4D00225DD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		822FABDD17F5CD4D00225DD8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822FABDE17F5CD4D00225DD8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822FABE317F5CD4D00225DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		822FABE417F5CD4D00225DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		822FABE617F5CD4D00225DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
+				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		822FABE717F5CD4D00225DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyroDemo/GyroDemo-Prefix.pch";
+				INFOPLIST_FILE = "GyroDemo/GyroDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822FABBD17F5CD4D00225DD8 /* Build configuration list for PBXProject "GyroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822FABE317F5CD4D00225DD8 /* Debug */,
+				822FABE417F5CD4D00225DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822FABE517F5CD4D00225DD8 /* Build configuration list for PBXNativeTarget "GyroDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822FABE617F5CD4D00225DD8 /* Debug */,
+				822FABE717F5CD4D00225DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822FABBA17F5CD4D00225DD8 /* Project object */;
+}
