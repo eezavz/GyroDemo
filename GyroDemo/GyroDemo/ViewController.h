@@ -12,7 +12,7 @@
 @interface ViewController : UIViewController
 {
     CMMotionManager * motionManager;
-    NSOperationQueue * operationQue;
+    //NSOperationQueue * operationQue;
     NSTimer * timer;
 }
 
@@ -25,4 +25,7 @@
 @property (retain, nonatomic) IBOutlet UILabel *rollLabel;
 @property (retain, nonatomic) IBOutlet UILabel * pitchLabel;
 @property (retain, nonatomic) IBOutlet UILabel * yawLabel;
+@property (retain, nonatomic) IBOutlet UILabel *accXLabel;
+@property (retain, nonatomic) IBOutlet UILabel *accYLabel;
+@property (retain, nonatomic) IBOutlet UILabel *accZLabel;
 @end
